@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        .cards{
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: wrap;
+         box-sizing: border-box;
+         margin: 5%;
+        }
+        .btn-style{
+            display: flex;
+        }
+    </style>
+    
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid" style="background-color: #51e530;padding: 2%;" >
+              <a class="navbar-brand" href="http://127.0.0.1:9000">Main Page</a>
+              <form class="d-flex input-group w-auto">
+                <label style="margin-right: 2%;">Enter name of product</label>
+                <input
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Search"
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                  id ="inputSearch"
+                />
+                <button type="button"  id="confirmBtn" style="margin-left: 2%;" class="btn btn-outline-light mb-4">Search</button>
+              </form>
+            </div>
+          </nav>
+    
+        <div class="cards" id="divCrds"></div>
+    
+        <footer class="bg-dark text-center text-white" style="background-color: #51e530;">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0"  style="background-color:#51e530;" >
+              <!-- Section: Form -->
+              <section class="" >
+                <form action="">
+                  <!--Grid row-->
+                  <div class="row d-flex justify-content-center" >
+                    <!--Grid column-->
+                    <div class="col-auto">
+                      <p class="pt-2">
+                        <strong>Sign up for our newsletter</strong>
+                      </p>
+                    </div>
+                    <!--Grid column-->
+          
+                   <div style="display: flex;width:70%">
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12" style="margin:1%">
+                      <!-- Email input -->
+                      <div class="form-outline form-white mb-4">
+                        <input type="password" id="firstname" class="form-control"  style="background-color: #b2faa2a8;" />
+                        <label class="form-label" for="form5Example2">Password</label>
+                      </div>
+                    </div>
+          
+                     <!--Grid column-->
+                    <div class="col-md-5 col-12" style="margin:1%">
+                      <!-- Email input -->
+                      <div class="form-outline form-white mb-4">
+                        <input type="email" id="email" class="form-control"  style="background-color: #b2faa2a8;" />
+                        <label class="form-label" for="form5Example2">Email address</label>
+                      </div>
+                    </div>
+          
+                   </div>
+                    <!--Grid column-->
+          
+                    <!--Grid column-->
+                    <div class="col-auto" >
+                      <!-- Submit button -->
+                      <button type="submit" class="btn btn-outline-light mb-4">
+                        Subscribe
+                      </button>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                </form>
+              </section>
+              <!-- Section: Form -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" >
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+          <!-- <script src="../services/searchProduct.js"></script> -->
+          <script src="./detail.html"></script>
+          <script src="/main.bundle.js"></script>
+          <script src="/search.bundle.js"></script>
+       
+</body>
+</html>  
